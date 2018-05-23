@@ -1,0 +1,42 @@
+html {
+  background: linear-gradient(to bottom, oldlace 0%, snow 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  height: 100%;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#search-bar {
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 5px;
+  text-align: center;
+  background-color: ivory;
+  border-style: solid;
+}
+
+.result-object {
+  border-style: solid;
+  margin: 2px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: BlanchedAlmond;
+}
+
+.result-thumbnail {
+  margin-top: 8px;
+}
+
+li.result-object {
+  list-style-image: url('http://www.inwayhosting.com/assets/images/star.png');
+}
