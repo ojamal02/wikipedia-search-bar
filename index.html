@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wiki Search Bar</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h2> Wikipedia Search Bar </h2>
+
+<div class="container my-container">
+    <div class="collapse-box"></div>
+    <div id="search-row" class="row">
+        <form id="search-bar" class="search-container">
+            <div class="input-group">
+                <input type="text" class="form-control" id="search" aria-describedby="search" placeholder="Search">
+                <input type="submit" hidden>
+                <span class="input-group-append input-group-text"><i class="fas fa-search"></i></span>
+            </div>
+        </form>
+       
+    </div>
+    <ul id="result-list">
+
+        <li class="result-object" hidden>
+            <div class="result-thumbnail">
+                <img></img>
+            </div>
+            <div class="result-text">
+                <a class="result-title" href="">
+                    <h5></h5>
+                </a>
+                <p class="result-extract"></p>
+            </div>
+        </li>
+    </ul>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
