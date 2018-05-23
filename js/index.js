@@ -40,7 +40,6 @@ function processSearchResult(data) {
             newResultObject.find(".result-thumbnail img").attr("src", pages[index].thumbnail.source);
         } else {
             newResultObject.find(".result-thumbnail img").remove();
-            //newResultObject.css("margin-left", "50px");
         }
         
         newResultObject.find(".result-title h5").html(pages[index].title);
